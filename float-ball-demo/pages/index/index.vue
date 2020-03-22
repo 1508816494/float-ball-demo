@@ -1,6 +1,6 @@
 <template>
 	<view class="content">
-		<cu-float-ball class='float-ball' :ball="ball" :area="area" :items="items" @itemsTap="itemTap"></cu-float-ball>
+		<cu-float-ball class='float-ball' :ball="ball" showCover="../../static/logo.png" :area="area" :items="items" @itemsTap="itemTap"></cu-float-ball>
 		<image class="logo" src="/static/logo.png" @click="mainClick"></image>
 		<view class="text-area" @click="mainClick">
 			<text class="title">{{title}}</text>

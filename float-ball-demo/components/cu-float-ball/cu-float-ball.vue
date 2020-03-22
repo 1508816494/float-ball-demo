@@ -45,7 +45,7 @@
 					top:'0',
 					left:'-25px',
 					color:'#000000',
-					backgroundColor: 'grey',//'inherit',
+					backgroundColor: 'grey',
 					borderRadius:'25px',
 				},
 				cuArea:{
@@ -53,8 +53,6 @@
 					height:'100%',
 					left:0,
 					top:0,
-					right: 'auto',
-					bottom: 'auto'
 				},
 				screen:{
 					width:0,
@@ -74,7 +72,7 @@
 				type:[Number,String]
 			},
 			items:{
-				default: function(){return Array},
+				default: () => {return []},
 				type: Array
 			},
 			damping: {
@@ -90,12 +88,12 @@
 				type: String
 			},
 			area: {
-				default:function (){ return {} },
+				default:() => { return {} },
 				type: Object
 				
 			},
 			ball: {
-				default:function (){ return {} },
+				default:() => { return {} },
 				type: Object
 			},
 		},

@@ -1,4 +1,5 @@
 **uni-app  悬浮球**
+![image](https://github.com/18212297551/float-ball-demo/blob/master/demo.gif)
 + 属性
 
     |参数|默认值|类型|说明|
